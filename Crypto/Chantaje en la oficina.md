@@ -158,7 +158,7 @@ Podemos ver que el grueso de la funcionalidad de este programa son las funciones
 
 - ### **_encrypt(filename, key)_**
 
-  Esta función recibe un fichero y una clave y cifra el contenido del fichero en otro distinto (con el mismo nombre pero con extensión 'enc') siguiendo un esquema de cifrado simétrico a través del módulo (Fernet)[https://cryptography.io/en/latest/fernet/]. Vemos ahora como el usuario ha podido ocultar el mensaje original.
+  Esta función recibe un fichero y una clave y cifra el contenido del fichero en otro distinto (con el mismo nombre pero con extensión 'enc') siguiendo un esquema de cifrado simétrico a través del módulo [Fernet](https://cryptography.io/en/latest/fernet/). Vemos ahora como el usuario ha podido ocultar el mensaje original.
 
 - ### **_decrypt(filename, key)_**
   Esta función es muy similar a la anterior, también recibe un fichero y una clave pero esta vez descifra el contenido y lo muestra por pantalla. Es importante destacar que solo funciona si la clave introducida por el usuario es correcta.
